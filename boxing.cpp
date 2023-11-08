@@ -49,13 +49,13 @@ int main () {
       cout << "You are a Middleweight";
       break;
     case 161 ... 167:
-      cout << "You are a Super Middleweight"
+      cout << "You are a Super Middleweight";
       break;
     case 168 ... 175:
-      cout << "You are a Light Heavyweight"
+      cout << "You are a Light Heavyweight";
       break;
     case 176 ... 183:
-      cout << "You are a Super Light Heavyweight"
+      cout << "You are a Super Light Heavyweight";
       break;
     case 184 ... 190:
       cout << "You are a Cruiserweight";
@@ -63,11 +63,13 @@ int main () {
     case 191 ... 220:
       cout << "You are a Heavyweight";
       break;
-    case 220 >
+    case 221 ... 800:
       cout << "You are a Super Heavyweight";
       break;
-  }
+    default:
+      cout << "Invalid weight entered. Please try again.";
   }
 
   return 0;
+
 }
