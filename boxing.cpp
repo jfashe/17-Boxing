@@ -3,7 +3,9 @@
 // Created on 11//2023
 // Boxing Assignment 17
 // "Muay Thai Kickboxing Weight Class Identifier"
-// 
+//
+//  *i don't know why it says it has 17 problems but it works*
+//
 
 #include <iostream>
 using namespace std;
@@ -63,7 +65,7 @@ int main () {
     case 191 ... 220:
       cout << "You are a Heavyweight";
       break;
-    case 221 ... 800:
+    case 221 ... 500:
       cout << "You are a Super Heavyweight";
       break;
     default:
