@@ -3,9 +3,9 @@
 // Created on 11//2023
 // Boxing Assignment 17
 // "Muay Thai Kickboxing Weight Class Identifier"
-//
-//  *i don't know why it says it has 17 problems but it works*
-//
+// 
+// 
+// 
 
 #include <iostream>
 using namespace std;
@@ -13,7 +13,7 @@ using namespace std;
 int main () {
   int weight;
 
-  cout << "Enter your weight in pounds:  ";
+  cout << "Enter your weight in pounds (lbs):  ";
   cin >> weight;
   
   switch(weight) {
